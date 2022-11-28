@@ -1,0 +1,1 @@
+export { PureComponent as default } from './PureComponent';

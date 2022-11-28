@@ -1,0 +1,40 @@
+.virtualization {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 30px;
+  
+  
+  .list {
+    border: 1px solid #d9dddd;
+    
+    .ListItemEven,
+    .ListItemOdd {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .ListItemEven {
+      background-color: #f8f8f0;
+  }
+
+    .grid {
+      border: 1px solid #d9dddd;
+      
+      .GridItemEven,
+      .GridItemOdd {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .GridItemEven {
+        background-color: #f8f8f0;
+      }
+    }
+}
+}

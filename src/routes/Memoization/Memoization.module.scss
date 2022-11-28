@@ -1,0 +1,30 @@
+.factorial, .fibonacci {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+
+  .header {
+    text-align: center;
+  }
+
+  > * {
+    margin: 10px;
+  }
+
+  > :first-child {
+    margin-bottom: 50px;
+  }
+
+  input {
+    font-size: 40px;
+    outline: none;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

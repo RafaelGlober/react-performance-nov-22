@@ -1,0 +1,1 @@
+export { SquareAnimated } from './SquareAnimated';

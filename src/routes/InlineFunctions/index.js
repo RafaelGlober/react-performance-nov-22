@@ -1,0 +1,1 @@
+export { InlineFunctions as default } from './InlineFunctions';

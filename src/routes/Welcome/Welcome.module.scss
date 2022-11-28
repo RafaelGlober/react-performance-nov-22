@@ -1,0 +1,13 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: auto;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: calc(200px * 4);
+  }
+}

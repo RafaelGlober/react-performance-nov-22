@@ -1,0 +1,1 @@
+export { LazyLoading as default } from './LazyLoading'
